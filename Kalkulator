@@ -1,0 +1,19 @@
+def dodawanie(a, b):
+    return a + b
+
+def odejmowanie(a, b):
+    return a - b
+
+def mnozenie(a, b):
+    return a * b
+
+def dzielenie(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Nie można dzielić przez zero"
+
+print("Wynik dodawania:", dodawanie(5, 3))
+print("Wynik odejmowania:", odejmowanie(5, 3))
+print("Wynik mnożenia:", mnozenie(5, 3))
+print("Wynik dzielenia:", dzielenie(5, 3))
